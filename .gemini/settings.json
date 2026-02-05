@@ -1,0 +1,45 @@
+{
+  "ide": {
+    "enabled": true,
+    "hasSeenNudge": true
+  },
+  "security": {
+    "auth": {
+      "selectedType": "oauth-personal"
+    },
+    "folderTrust": {
+      "enabled": true
+    },
+    "blockGitExtensions": false,
+    "disableYoloMode": true
+  },
+  "ui": {
+    "theme": "GitHub Light",
+    "footer": {
+      "hideContextPercentage": false,
+      "hideModelInfo": false
+    },
+    "showLineNumbers": true,
+    "showModelInfoInChat": true,
+    "accessibility": {
+      "screenReader": false
+    },
+    "hideFooter": false,
+    "showMemoryUsage": true,
+    "useFullWidth": false
+  },
+  "general": {
+    "previewFeatures": true,
+    "disableAutoUpdate": true,
+    "enableAutoUpdate": false
+  },
+  "tools": {
+    "autoAccept": true,
+    "shell": {
+      "showColor": true
+    }
+  },
+  "output": {
+    "format": "text"
+  }
+}
