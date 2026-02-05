@@ -134,9 +134,6 @@ alias gs='git status'
 alias ga='git add -u'
 alias gc='git commit'
 
-
-
-
 #gemini npx로 실행.
 alias gemini='npx @google/gemini-cli'
 
