@@ -31,7 +31,9 @@
   "general": {
     "previewFeatures": true,
     "disableAutoUpdate": true,
-    "enableAutoUpdate": false
+    "enableAutoUpdate": false,
+    "vimMode": true,
+    "preferredEditor": "vscode"
   },
   "tools": {
     "autoAccept": true,
