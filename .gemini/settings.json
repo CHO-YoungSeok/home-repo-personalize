@@ -11,37 +11,64 @@
       "enabled": true
     },
     "blockGitExtensions": false,
-    "disableYoloMode": true
+    "disableYoloMode": true,
+    "environmentVariableRedaction": {
+      "enabled": true
+    }
   },
   "ui": {
     "theme": "GitHub Light",
     "footer": {
       "hideContextPercentage": false,
-      "hideModelInfo": false
+      "hideModelInfo": false,
+      "hideSandboxStatus": true
     },
-    "showLineNumbers": true,
+    "showLineNumbers": false,
     "showModelInfoInChat": true,
     "accessibility": {
       "screenReader": false
     },
     "hideFooter": false,
     "showMemoryUsage": true,
-    "useFullWidth": false
+    "useFullWidth": false,
+    "hideBanner": true,
+    "showStatusInTitle": true,
+    "showCitations": true,
+    "useBackgroundColor": true,
+    "hideWindowTitle": false,
+    "incrementalRendering": true
   },
   "general": {
     "previewFeatures": true,
     "disableAutoUpdate": true,
-    "enableAutoUpdate": false,
-    "vimMode": true,
-    "preferredEditor": "vscode"
+    "vimMode": false,
+    "preferredEditor": "vscode",
+    "debugKeystrokeLogging": false,
+    "sessionRetention": {
+      "enabled": true
+    },
+    "enablePromptCompletion": true,
+    "enableAutoUpdate": false
   },
   "tools": {
-    "autoAccept": true,
+    "autoAccept": false,
     "shell": {
       "showColor": true
-    }
+    },
+    "approvalMode": "default"
   },
   "output": {
     "format": "text"
+  },
+  "model": {
+    "skipNextSpeakerCheck": false,
+    "compressionThreshold": 0.7
+  },
+  "context": {
+    "discoveryMaxDirs": 100,
+    "loadMemoryFromIncludeDirectories": true
+  },
+  "experimental": {
+    "plan": true
   }
 }
