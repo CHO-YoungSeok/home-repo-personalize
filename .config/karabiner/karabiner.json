@@ -105,6 +105,7 @@
                     },
                     {
                         "description": "Hyper+k -> Open KakaoTalk (shell_command)",
+                        "enabled": false,
                         "manipulators": [
                             {
                                 "from": {

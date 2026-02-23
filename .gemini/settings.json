@@ -21,7 +21,7 @@
     "footer": {
       "hideContextPercentage": false,
       "hideModelInfo": false,
-      "hideSandboxStatus": true
+      "hideSandboxStatus": false
     },
     "showLineNumbers": false,
     "showModelInfoInChat": true,
@@ -31,7 +31,7 @@
     "hideFooter": false,
     "showMemoryUsage": true,
     "useFullWidth": false,
-    "hideBanner": true,
+    "hideBanner": false,
     "showStatusInTitle": true,
     "showCitations": true,
     "useBackgroundColor": true,
@@ -41,14 +41,15 @@
   "general": {
     "previewFeatures": true,
     "disableAutoUpdate": true,
-    "vimMode": false,
+    "vimMode": true,
     "preferredEditor": "vscode",
     "debugKeystrokeLogging": false,
     "sessionRetention": {
       "enabled": true
     },
-    "enablePromptCompletion": true,
-    "enableAutoUpdate": false
+    "enablePromptCompletion": false,
+    "enableAutoUpdate": false,
+    "defaultApprovalMode": "default"
   },
   "tools": {
     "autoAccept": false,
@@ -62,10 +63,10 @@
   },
   "model": {
     "skipNextSpeakerCheck": false,
-    "compressionThreshold": 0.7
+    "compressionThreshold": 0.5
   },
   "context": {
-    "discoveryMaxDirs": 100,
+    "discoveryMaxDirs": 5,
     "loadMemoryFromIncludeDirectories": true
   },
   "experimental": {
