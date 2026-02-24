@@ -14,7 +14,8 @@
     "disableYoloMode": true,
     "environmentVariableRedaction": {
       "enabled": true
-    }
+    },
+    "enablePermanentToolApproval": false
   },
   "ui": {
     "theme": "GitHub Light",
@@ -36,16 +37,17 @@
     "showCitations": true,
     "useBackgroundColor": true,
     "hideWindowTitle": false,
-    "incrementalRendering": true
+    "incrementalRendering": true,
+    "inlineThinkingMode": "full"
   },
   "general": {
     "previewFeatures": true,
     "disableAutoUpdate": true,
-    "vimMode": true,
+    "vimMode": false,
     "preferredEditor": "vscode",
     "debugKeystrokeLogging": false,
     "sessionRetention": {
-      "enabled": true
+      "enabled": false
     },
     "enablePromptCompletion": false,
     "enableAutoUpdate": false,
@@ -63,7 +65,8 @@
   },
   "model": {
     "skipNextSpeakerCheck": false,
-    "compressionThreshold": 0.5
+    "compressionThreshold": 0.5,
+    "disableLoopDetection": true
   },
   "context": {
     "discoveryMaxDirs": 5,
