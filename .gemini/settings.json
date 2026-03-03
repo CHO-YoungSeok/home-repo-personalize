@@ -11,7 +11,6 @@
       "enabled": true
     },
     "blockGitExtensions": false,
-    "disableYoloMode": true,
     "environmentVariableRedaction": {
       "enabled": true
     },
@@ -47,7 +46,9 @@
     "preferredEditor": "vscode",
     "debugKeystrokeLogging": false,
     "sessionRetention": {
-      "enabled": false
+      "enabled": true,
+      "maxAge": "30d",
+      "warningAcknowledged": true
     },
     "enablePromptCompletion": false,
     "enableAutoUpdate": false,
@@ -66,13 +67,21 @@
   "model": {
     "skipNextSpeakerCheck": false,
     "compressionThreshold": 0.5,
-    "disableLoopDetection": false
+    "disableLoopDetection": false,
+    "name": "gemini-3.1-pro-preview"
   },
   "context": {
     "discoveryMaxDirs": 5,
     "loadMemoryFromIncludeDirectories": true
   },
   "experimental": {
-    "plan": true
+    "plan": true,
+    "enableAgents": true,
+    "agentTeamSync": true,
+    "modelRouting": true
+  },
+  "agent": {
+    "mode": "advanced",
+    "defaultTeamPath": "./.gemini/agents"
   }
 }

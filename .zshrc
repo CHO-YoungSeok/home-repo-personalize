@@ -137,7 +137,5 @@ alias gc='git commit'
 #gemini npx로 실행.
 alias gemini='npx @google/gemini-cli'
 
-
-PATH=$PATH:/opt/homebrew/Cellar/node/25.2.1/bin
-
-export EDITOR="code --wait"export PATH="/opt/homebrew/opt/openjdk@21/bin:$PATH"
+PATH=$PATH:/opt/homebrew/bin
+export EDITOR="code --wait"
