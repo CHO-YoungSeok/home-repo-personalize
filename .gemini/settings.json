@@ -17,7 +17,7 @@
     "enablePermanentToolApproval": false
   },
   "ui": {
-    "theme": "GitHub Light",
+    "theme": "ANSI Light",
     "footer": {
       "hideContextPercentage": false,
       "hideModelInfo": false,
@@ -52,7 +52,10 @@
     },
     "enablePromptCompletion": false,
     "enableAutoUpdate": false,
-    "defaultApprovalMode": "default"
+    "defaultApprovalMode": "default",
+    "plan": {
+      "directory": ""
+    }
   },
   "tools": {
     "autoAccept": false,
@@ -68,7 +71,7 @@
     "skipNextSpeakerCheck": false,
     "compressionThreshold": 0.5,
     "disableLoopDetection": false,
-    "name": "gemini-3.1-pro-preview"
+    "name": "auto-gemini-3"
   },
   "context": {
     "discoveryMaxDirs": 5,
