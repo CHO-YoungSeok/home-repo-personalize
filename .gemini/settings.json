@@ -70,7 +70,7 @@
   "model": {
     "skipNextSpeakerCheck": false,
     "compressionThreshold": 0.5,
-    "disableLoopDetection": false,
+    "disableLoopDetection": true,
     "name": "auto-gemini-3"
   },
   "context": {
@@ -81,7 +81,8 @@
     "plan": true,
     "enableAgents": true,
     "agentTeamSync": true,
-    "modelRouting": true
+    "modelRouting": true,
+    "directWebFetch": false
   },
   "agent": {
     "mode": "advanced",

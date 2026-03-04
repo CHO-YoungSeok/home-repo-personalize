@@ -173,7 +173,7 @@
                         ]
                     },
                     {
-                        "description": "Hyper+[1-4] → launch apps (comet, Chrome, Gemini, safari)",
+                        "description": "Hyper+[1-4] → launch apps (firefox, Chrome, Gemini, safari)",
                         "manipulators": [
                             {
                                 "from": {
@@ -188,7 +188,7 @@
                                         "key_code": "c",
                                         "modifiers": ["left_command"]
                                     },
-                                    { "shell_command": "open -a 'Comet'" }
+                                    { "shell_command": "open -a 'firefox'" }
                                 ],
                                 "type": "basic"
                             },
