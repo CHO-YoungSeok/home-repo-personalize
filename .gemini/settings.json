@@ -54,7 +54,7 @@
     "enableAutoUpdate": false,
     "defaultApprovalMode": "default",
     "plan": {
-      "directory": "."
+      "directory": ".gemini/docs"
     }
   },
   "tools": {
